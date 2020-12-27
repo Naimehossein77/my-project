@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/aboutusid"
+
+	>
+	<LinearLayout
+
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="40dp"
+			android:text="About Creator:"
+			android:textColor="#1A1A32"
+			android:textSize="20sp"
+			android:textStyle="bold" />
+
+		<ImageView
+			android:layout_gravity="center"
+			android:layout_width="146dp"
+			android:layout_height="164dp"
+			android:layout_marginTop="10dp"
+			android:src="@drawable/nublapic"
+			/>
+
+		<TextView
+			android:textSize="15sp"
+			
+			android:textColor="#343a40"
+			android:layout_gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="10dp"
+			android:text="NAME: Kazi Nubila Nushin"
+			android:hint="photo"
+			android:textAllCaps="false"
+			/>
+		<TextView
+			android:textSize="15sp"
+		
+			android:textColor="#343a40"
+			android:layout_gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:text="ROLL: 1803162"
+			android:hint="photo"
+			android:textAllCaps="false"
+			/>
+
+		<TextView
+			android:textSize="15sp"
+			 
+			android:textColor="#343a40"
+			android:layout_gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:text="SECTION: C"
+			android:hint="photo"
+			android:textAllCaps="false"
+			/>
+
+		<TextView
+			android:textSize="15sp"
+			
+			android:textColor="#343a40"
+			android:layout_gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:text="Department of Computer Science and Engineering"
+			android:hint="photo"
+			android:textAllCaps="false"
+			/>
+
+		<TextView
+			android:textSize="14sp"
+			 
+			android:textColor="#343a40"
+			 android:layout_gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:text="Rajshahi University of Engineering and Technology-RUET"
+			android:hint="photo" android:textAllCaps="false"
+			/>
+
+		<ImageView
+			 android:layout_gravity="center"
+			android:layout_width="146dp"
+			android:layout_height="164dp"
+			android:layout_marginTop="150dp"
+			android:src="@drawable/naim"
+			/>
+
+		<TextView
+			android:textSize="15sp"
+			 
+			android:textColor="#343a40"
+			 android:layout_gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="10dp"
+			android:text="NAME: Md. Jubair Hossain Naim"
+			android:hint="photo"
+			android:textAllCaps="false" />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			 android:layout_gravity="center"
+			android:layout_marginLeft="5dp"
+			android:hint="photo"
+			android:text="ROLL: 1803178"
+			android:textAllCaps="false"
+			android:textColor="#343a40"
+			android:textSize="15sp"
+			  />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			 android:layout_gravity="center"
+			android:layout_marginLeft="5dp"
+			android:hint="photo"
+			android:text="SECTION: C"
+			android:textAllCaps="false"
+			android:textColor="#343a40"
+			android:textSize="15sp"
+			  />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			 android:layout_gravity="center"
+			android:layout_marginLeft="5dp"
+			android:hint="photo"
+			android:text="Department of Computer Science and Engineering"
+			android:textAllCaps="false"
+			android:textColor="#343a40"
+			android:textSize="15sp"
+			  />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			 android:layout_gravity="center"
+			android:layout_marginLeft="5dp"
+			android:hint="photo"
+			android:text="Rajshahi University of Engineering and Technology-RUET"
+			android:textAllCaps="false"
+			android:textColor="#343a40"
+			android:textSize="14sp"
+			  />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			 android:layout_gravity="center"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="70dp"
+
+			android:paddingBottom="10dp"
+			android:text="Contact us:"
+			android:textAllCaps="false"
+			android:textColor="#811010"
+			android:textSize="15sp"
+			  />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			 android:layout_gravity="center"
+			android:layout_marginLeft="5dp"
+			android:hint="photo"
+			android:text="Email:"
+			android:textAllCaps="false"
+			android:textColor="#AF2B2B"
+			android:textSize="15sp"
+			  />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			 android:layout_gravity="center"
+			android:layout_marginLeft="5dp"
+			android:hint="photo"
+			android:paddingLeft="43dp"
+			android:text="naimehossein77@gmail.com "
+			android:textAllCaps="false"
+			android:textColor="#000000"
+			android:textSize="15sp"
+			  />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			 android:layout_gravity="center"
+			android:layout_marginLeft="5dp"
+			android:layout_marginBottom="60dp"
+			android:hint="photo"
+			android:paddingLeft="43dp"
+			android:text="kazinubilanushintajin@gmail.com"
+			android:textAllCaps="false"
+			android:textColor="#000000"
+			android:textSize="15sp"
+			  />
+	</LinearLayout>
+</ScrollView>

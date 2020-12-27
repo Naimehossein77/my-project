@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Speech to Text</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bangla_begin">বলুন</string>
+    <string name="bangla_button">শুরু করুন</string>
+    <string name="bangla_change">পরিবর্তন</string>
+    <string name="bangla_hint">আপনার টেক্সট টি এখানে দেখবেন...</string>
+    <string name="bangla_language">bn</string>
+    <string name="bangla_rms">শোনা হচ্ছে...</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="button_text">Exit</string>
+
+    <string name="contactstring">Contact us:</string>
+    <string name="english_begin">Speak Now</string>
+    <string name="english_button">Start</string>
+    <string name="english_change">Change</string>
+    <string name="english_hint">Your Text will appear here...</string>
+    <string name="english_language">en</string>
+    <string name="english_rms">Listening...</string>
+
+
+    <string name="french_begin">écouter maintenant</string>
+    <string name="french_button">début</string>
+    <string name="french_change">changement</string>
+    <string name="french_hint">votre texte apparaîtra ici ...</string>
+    <string name="french_language">fr</string>
+    <string name="french_rms">écouter maintenant...</string>
+
+    <string name="hindi_begin">अब बोलो</string>
+    <string name="hindi_button">शुरू</string>
+    <string name="hindi_change">परिवर्तन</string>
+    <string name="hindi_hint">आपका पाठ यहां दिखाई देगा ...</string>
+    <string name="hindi_language">hi</string>
+    <string name="hindi_rms">अब सुन रहा हूँ...</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="msg_text">Do you want to exit?</string>
+
+    <string name="title_text">Alert!</string>
+    <string name="urdu_begin">اب بولو</string>
+    <string name="urdu_button">شروع کریں</string>
+    <string name="urdu_change">تبدیلی</string>
+    <string name="urdu_hint">آپ کا متن یہاں ظاہر ہوگا ...</string>
+    <string name="urdu_language">ur</string>
+    <string name="urdu_rms">لنٹننگ...</string>
+
+
+
+
+    <string-array name="language_name">
+        <item>Bangla</item>
+        <item>English</item>
+        <item>Hindi</item>
+        <item>French</item>
+        <item>Urdu</item>
+
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/feedbackid"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:weightSum="5">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="2">
+		<EditText
+			android:textSize="17sp"
+			android:id="@+id/nameid"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="30dp"
+			android:hint="Enter your Name"
+			/>
+		<EditText
+			android:textSize="17sp"
+			android:id="@+id/messageid"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="30dp"
+			android:hint="Message"
+			/>
+	</LinearLayout>
+	<LinearLayout
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<Button
+			android:textColor="#ffffff"
+			android:id="@+id/clearbuttonid"
+			android:background="@drawable/roundbutton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0dp"
+			android:layout_marginRight="20dp"
+			android:text="Clear"
+			android:textAllCaps="false"
+			/>
+
+		<Button
+			android:textColor="#ffffff"
+			android:id="@+id/sendbuttonid"
+			android:background="@drawable/roundbutton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="0dp"
+			android:text="Send"
+			android:textAllCaps="false" />
+	</LinearLayout>
+</LinearLayout>

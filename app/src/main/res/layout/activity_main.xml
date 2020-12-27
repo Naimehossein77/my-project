@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight=".5"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textviewid"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundtextview"
+            android:hint="Your text will appear here..."
+            android:paddingTop="29dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="normal"
+
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <TextView
+            android:id="@+id/circleid"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/circle" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/circleicon"
+            android:scaleX=".7"
+            android:scaleY=".7"
+            android:src="@drawable/mic2" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinnerid"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/roundbutton" />
+
+        <Button
+            android:id="@+id/buttonid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:background="@drawable/roundbutton"
+            android:onClick="startButton"
+            android:text="start"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_weight=".5"
+        android:background="@drawable/round"
+        android:orientation="vertical" />
+</LinearLayout>

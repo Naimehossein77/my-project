@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+
+
+    <color name="abouttext">#343a40</color>
+    <color name="accent_material_dark">@color/material_deep_teal_200</color>
+    <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="black">#ff000000</color>
+    <color name="btntextcolor">#7a7272</color>
+
+    <color name="colorAccent">#03dac5</color>
+    <color name="colorPrimary">#6200ee</color>
+    <color name="colorPrimaryDark">#3700b3</color>
+    <color name="contactuscolor">#e91e63</color>
+    <color name="crimson">#003049</color>
+    <color name="purple_200">#ffbb86fc</color>
+    <color name="purple_500">#ffffff</color>
+    <color name="purple_700">#ff3700b3</color>
+    <color name="red">#743eb6</color>
+
+</resources>
+
